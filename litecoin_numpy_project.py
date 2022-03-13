@@ -1,5 +1,5 @@
-from numpy import *
-import pandas as pd
+from numpy import *                #Imports everything from the NumPy package
+import pandas as pd                #Imports Pandas as pd, which means we specify what we need from the Pandas package 
 
 open=pd.read_csv('/Users/jonathanprince/python/litecoin_numpy_project.csv')['Open'].values      #Transforms data from csv file within the "open"column into an array, called "open".
  
